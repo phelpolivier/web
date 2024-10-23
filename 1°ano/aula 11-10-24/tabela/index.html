@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(140, 140, 140);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.8em;
+            letter-spacing: 1px;
+        }
+
+        caption {
+            caption-side: bottom;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        thead, tfoot {
+            background-color: rgb(132, 233, 123);
+        }
+
+        th, td {
+            border: 1px solid rgb(160, 160, 160);
+        }
+
+        td:last-of-type {
+            text-align: center;
+        }
+
+        .exemplo {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 353px;
+            height: 10%;
+            font-size: 20px;
+            background-color: rgb(228, 240, 245);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h3>My Favourite Games</h3>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col"><strong>Jogo</strong></th>
+                <th scope="col"><strong>Geração</strong></th>
+                <th scope="col"><strong>Gênero</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">The Last of Us</th>
+                <td>PS3</td>
+                <td>Survival Horror</td>
+            </tr>
+            <tr>
+                <th scope="row">God of War III</th>
+                <td>PS3</td>
+                <td>Hack in Slash</td>
+            </tr>
+            <tr>
+                <th scope="row">Minecraft</th>
+                <td>PC</td>
+                <td>Não especificado</td>
+            </tr>
+            <tr>
+                <th scope="row">Gran Turismo 4</th>
+                <td>PS2</td>
+                <td>Simulador de Corrida</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

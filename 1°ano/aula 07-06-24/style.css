@@ -1,0 +1,120 @@
+* {
+    font-family: Arial;
+ 
+}
+ 
+body{
+    margin:0;
+    padding:0;
+}
+ 
+img {
+    margin: 7px;
+}
+
+.topo{
+    height:52px;
+    background-color:#323232;
+    margin: auto;
+    color: white;
+}
+
+.menu{
+    float:right;
+}
+
+.menu ul, .menu li{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.menu li{
+    float:left;
+    padding-left:10px;
+    padding-right:20px;
+    line-height: 20px;
+    font-size: 14px;
+    cursor:pointer;
+}
+
+.menu li:hover {
+    background-color:#830808;
+}
+
+.azul {
+    height: 300px;
+    background-color:#640505;
+}
+.azulinterior{
+    width:1000px;
+    margin:auto;
+}
+.azulesquerda{
+    float:left;
+}
+.azuldireita{
+    float:right;
+}
+.azuldireita img {
+    margin-right:55px;
+    height: 294px;
+}
+.frase1 {
+    font-size:48px;
+    color: #FFFFFF;
+    margin-top:60px;
+    margin-left: 25px;
+}
+.frase2 {
+    font-size:20px;
+    color: #FFFFFF;
+    margin-left: 25px;
+}
+
+.botao {
+    width:282px;
+    height:56px;
+    font-size:20px;
+    text-align: center;
+    line-height: 56px;
+    margin-top:20px;
+padding-top: 5px;
+padding-left: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+margin-left: 30px;
+border: 1px solid white;
+border-radius: 5px;
+color: white;
+background-color: #007FFF;
+    cursor:pointer;
+}
+ 
+.conteudointerno {
+    width:1000px;
+    margin:auto;
+}
+
+.outrosprodutos {
+    height:90px;
+    font-size:20px;
+    text-align:center;
+    line-height: 90px;
+}
+
+.fotos {
+    width:500px;
+}
+.fotos img {
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.rodape {
+    background-color:#3479ba;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+    color:#FFFFFF;
+    margin-top:40px;
+}

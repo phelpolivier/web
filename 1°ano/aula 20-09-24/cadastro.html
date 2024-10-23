@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilo/cadastro.css">
+    <link rel="shortcut icon" href="image/16-bits.PNG" type="image/x-icon">
+</head>
+<body><br><br>
+    <div class="formulario">
+        <div class="direita">
+            <img src="image/16-bits.PNG" width="175px">
+            <h2>Cadastro</h2>
+            <form action="">
+                <label for="name">Nome Completo:</label>
+                <input type="text" name="name" placeholder="Digite seu nome">
+                <br>
+                <label for="lastname">Data de Nascimento:</label>
+                <input type="date" name="nasc" id="">
+                <br>
+                <label for="sexo">Sexo: </label>
+                <select name="sexo" class="sexo">
+                    <option selected="selected" value="homi">Masculino</option>
+                    <option value="muie">Feminino</option>
+                </select>
+                <br>
+                <label for="mail">E-Mail: </label>
+                <input type="email" name="mail" id="" placeholder="Digite seu e-mail">
+                <br>
+                <label for="tel">Telefone: </label>
+                <input type="tel" name="tel" id="" placeholder="Digite seu telefone">
+                <br>
+                <label for="cpf">CPF: </label>
+                <input type="text" name="cpf" id="" placeholder="Digite seu CPF">
+                <br>
+                <label for="senha">Senha: </label>
+                <input type="password" name="senha" id="" placeholder="Crie uma senha">
+                <br><br>
+                <input type="submit" value="Cadastrar" onclick="alert('Você é humano?')">
+            </form>
+        </div>
+        <div class="esquerda">
+            <!--Imagem-->
+        </div>
+</body>
+</html>

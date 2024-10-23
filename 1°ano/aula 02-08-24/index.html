@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="exemplo">Exemplos de listas</div>
+    <div class="exemplo">Listas não ordenadas</div>
+        <ul>
+            <li>Café</li>
+            <li>Leite</li>
+        </ul>
+    <div class="exemplo">Listas ordenadas</div>
+        <ol>
+            <li>Café</li>
+            <li>Leite</li>
+        </ol>
+    <div class="exemplo">Lista de Definições</div>
+        <dl>
+            <dt>Café</dt>
+            <dd>Bebida quente preta</dd>
+            <dt>Leite</dt>
+            <dd>Bebida fria branca</dd>
+        </dl>
+    <div class="exemplo">Descrição da tabela abaixo</div>
+    <div class="exemplo">Tabelas</div>
+    <table id="tabela">
+        <!--caption: Define cabeçalho e posição-->
+        <caption>
+            Descrição dos Elementos de Tabelas
+        </caption>
+        <!--thead: Define Título da Coluna-->
+        <thead>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Descrição</th>
+            </tr>    
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">OL</th>
+                <td>Define uma lista ordenada</td>
+            </tr>
+            <tr>
+                <th scope="row">UL</th>
+                <td>Define uma lista não ordenada</td>
+            </tr>
+            <tr>
+                <th scope="row">LI</th>
+                <td>Define um item da lista</td>
+            </tr>
+            <tr>
+                <th scope="row">DL</th>
+                <td>Define uma lista de definição</td>
+            </tr>
+            <tr>
+                <th scope="row">DT</th>
+                <td>Define um termo de definição</td>
+            </tr>
+            <tr>
+                <th scope="row">DD</th>
+                <td>Define uma descrição de definição</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="exemplo">Descrição da tabela abaixo</div>
+    <table>
+        <caption>
+            Front-end web developer - Etec de Cotia
+        </caption>
+
+        <thead>
+            <tr>
+                <th scope="col">Pessoa</th>
+                <th scope="col">Interesse</th>
+                <th scope="col">Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Christopher</th>
+                <td>HTML tables</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <th scope="row">Dennis Angelo</th>
+                <td>Web accessibility</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <th scope="row">Sarah Jones</th>
+                <td>JavaScript frameworks</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <th scope="row">Raquel Angel</th>
+                <td>Web performance</td>
+                <td>36</td>
+            </tr>
+        </tbody>
+        <!--  tfoot: define rodapé-->
+        <tfoot>
+            <tr>
+                <th scope="row" colspan>Idade</th>
+                <td>33</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

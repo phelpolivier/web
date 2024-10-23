@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    padding-bottom: 4px;
+}
+
+img {
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.menu{
+    display: block;
+    float:right;
+    border: none;
+    margin-bottom: 35px;
+}
+
+.ul, .li{
+    color: white;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.li{
+    color: white;
+    float:left;
+    padding-top: 33px;
+    padding-right: 10px;
+    line-height: 20px;
+    font-size: 14px;
+    cursor:pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    background-image: image-set("image/wallpaper.png");
+    height: 500px;
+}
+
+div.mg {
+    color: white;
+    background-image: image-set("../image/wallpaper.png");
+    background-repeat: no-repeat;
+    margin: auto;
+    padding-right: 300px;
+    height: 813px;
+}
+
+#sloganh1 {
+    padding-top: 297.5px;
+    padding-left: 90px;
+    font-size: 3em;
+}
+
+#sloganp {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 90px;
+    font-size: 1.5em;
+}
+
+#h1form {
+    text-align: center;
+    color: white;
+}
+
+.formulario {
+    background-image: image-set("../image/lamborghini-grande.png");
+    height: 533px;
+}
+
+
+form{
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.644);
+    width: 800px;
+    border-radius: 7px;
+}
+
+a {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(102, 102, 102);
+}
+
+label {
+    color: white;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+textarea {
+    margin-left: 10px;
+}
+
+input[type=submit] {
+    margin-left: 10px;
+}
+
+footer {
+    margin: auto;
+    margin-top: 845px;
+    height: 414px;
+    background-image: image-set("../image/rodape.PNG");
+    background-repeat: no-repeat;
+    background-color: black;
+}

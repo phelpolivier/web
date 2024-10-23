@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ouvidoria</title>
+    <link rel="shortcut icon" href="image/lamborghini.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formulario">
+        <h1>Ouvidoria</h1>
+        <form action="">
+            <br><br>
+            <label for="nome">Nome Completo</label>
+            <input type="text" name="nome" placeholder="Digite nome completo" required>
+            <br><br>
+            <label for="email">E-mail </label>
+            <input type="text" name="email" placeholder="Digite o seu E-mail" required>
+            <br><br>
+            <label for="cpf">CPF: </label>
+            <input type="text" name="cpf" placeholder="Digite seu CPF" required>
+            <br>
+            <a href="https://www.correios.com.br/">Clique aqui caso não tenha CPF</a>
+            <br><br>
+            <Label>DDD e telefone</Label>
+            <input type="tel" name="DDD e telfone" placeholder="Digite seu DDD e seu telefone" required>
+            <br>
+            <label for="ESTADO">Selecione um Estado:</label>
+                <select name="ESTADO" id="Estado">
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Minas Gerais">Minas Gerais</option>
+                    <option value="mato grosso do sul">Mato Grosso do Sul</option>
+                    <option value="Amazonas">Amazonas</option>
+                    <option value="Acre">Acre</option>
+                    <option value="Rondonia">Rondônia</option>
+                    <option value="Mato Grosso">Mato Grosso</option>
+                    <option value="Goiás">Goiás</option>
+                    <option value="Paraná">Paraná</option>
+                    <option value="Tocantins">Tocantis</option>
+                    <option value="Piaui">Piaui</option>
+                    <option value="Bahia">Bahia</option>
+                </select> 
+            <label for="cidade">Selecione a cidade:</label>
+                <select name="cidade" id="cidade">
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="São Paulo"><S>São Paulo</S></option>
+                    <option value="Cotia">Cotia</option>
+                    <option value="Guarulhos">Guarulhos</option>
+                    <option value="Guaruja">Guaruja</option>
+                    <option value="Itanhaém">Itanhaém</option>
+                    <option value="Praia Grande">Praia Grande</option>
+                </select>
+            <!--TextArea - Campo para digitar um texto-->
+            <br>
+            <label for="tipo">Tipo:</label>
+                <select name="tipo" id="tipo">
+                    <option value="tipo 1">Tipo 1</option>
+                </select>
+            <p><label for="textarea">Área de texto</label></p>
+            <textarea name="textarea" id="textarea" rows="5" cols="50" placeholder="Sugestões e Reclamações"></textarea>
+            <br><br>
+            <input type="submit" value="Enviar">
+            <br><br>
+        </form>
+    </div>
+</body>
+</html>
